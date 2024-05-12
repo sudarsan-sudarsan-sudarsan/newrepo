@@ -1,0 +1,84 @@
+#logo{
+    width:auto;
+    height: 30px;
+}
+#banner-size{
+    width:100%;
+    height: 100%;
+}
+#banner-photo{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+
+}
+h1{
+    color:black;
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+#about{
+    display:flex;
+    
+}
+#desc{
+    font-size: 2rem;
+    max-width: 50%;
+    
+}
+#team{
+    
+    height: 30rem;
+    width:50rem
+}
+span.boost{
+    font-size:2rem;
+}
+a.links{
+    font-size: 2rem;
+    text-decoration:none;
+    margin-top: 90px;
+    
+}
+.offer{
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+}
+span.role{
+    font-size: 2rem;
+}
+
+span.add{
+    font-size: 1.5rem;
+    color: gray;
+    font-style: italic;
+    
+}
+.apply{
+    float: right;
+    
+}
+.mid{
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+#footerlinks li{
+    list-style: none;
+    display: inline;
+
+}
+a.programs{
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.footer{
+    text-align: center;
+}
+.bot{
+    text-align: center;
+    color:gray
+}

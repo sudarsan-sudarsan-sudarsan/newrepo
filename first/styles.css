@@ -1,0 +1,85 @@
+h1{
+    text-align:center;
+    color: yellow;
+    margin:0
+}
+
+    
+
+span.loc{
+    color : gray;
+
+}
+#box-one{
+    color:lightcoral
+
+}
+body{
+    padding:60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#navbar{
+    padding: 6px;
+}
+#banner{
+    object-fit: cover;
+}
+#logo{
+    margin:0;
+    padding:0;
+    height:10px;
+    width: auto;
+
+
+}
+
+/*this how we can use the div for the horizontal separation see the below*/
+#about{
+    display: flex;
+    margin:0 auto;
+    padding:0 50px
+}
+#desc{
+    width:500%;
+    height:200%;
+}
+#team-image{
+    object-fit: cover;
+}
+h2{
+    text-align: center;
+}
+
+#add{
+    font-style: italic;
+    color:gray
+    
+}
+
+#job{
+    text-align:center
+}
+.apply{
+    float:right
+}
+#add{
+    margin-right:15px;
+}
+a{
+    /* to remove the underline from the links*/
+    text-decoration:double;
+
+}
+#footer{
+    padding:8px;
+    margin-top:6px;
+
+
+
+}
+#footer-links li {
+    list-style: none;
+    display: inline;
+
+
+}

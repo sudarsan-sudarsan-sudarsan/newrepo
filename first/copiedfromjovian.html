@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        My First Web Page
+    </title>
+    <link rel="stylesheet" href="joviancss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="navbar">
+
+        <img id="logo" alt="Jovian Logo" src="person.png" height="30">
+    </div>
+    <img id="banner" src="banner.jpg" alt="Banner" height="240">
+    <h1>
+        About Jovian
+    </h1>
+
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+                At <span style="text-decoration:line-through">Jovian</span>, we're on a mission to build
+                the world's most highly reputed technical
+                university, and we're building it completely
+                online. We offer several beginner friendly
+                courses that are taken by 300,000+ registered
+                users.
+            </p>
+            <p>
+                We also offer 2 industry-focused bootcamps:
+            <ol>
+                <li>
+                    <a href="https://www.jovian.com/full-stack-developer-bootcamp">
+                        Jovian Full Stack Developer Bootcamp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.jovian.com/data-science-bootcamp">
+                        Jovian Data Science Bootcamp
+                    </a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <div id="team">
+            <img id="team-image" alt="Team" src="team.jpg">
+        </div>
+    </div>
+
+
+
+
+    
+    <h2>Job Opportunities</h2>
+    <div class="tablee">
+        <table id="jobs-table">
+            <tr class="jobs-header-row">
+                <th rowspan="2">
+                    Job Title
+                </th>
+                <th colspan="2">
+                    Location
+                </th>
+                <th rowspan="2">
+                    Salary
+                </th>
+                <th rowspan="2">
+                    Posted On
+                </th>
+            <tr class="jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+
+            </tr>
+        
+
+
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Frontend Developer</td>
+                <td>Bengaluru</td>
+                <td>India</td>
+                <td>₹12,00,000</td>
+                <td>Mar 3,2023</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Full Stack Developer</td>
+                <td>New Delhi</td>
+                <td>India</td>
+                <td>₹15,00,000</td>
+                <td>Feb 1,2023</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td>San Fransisco</td>
+                <td>USA</td>
+                <td>$175,000</td>
+                <td>Dec 22,2022</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Machine Learning Engineer</td>
+                <td>Remote</td>
+                <td></td>
+                <td>$80,000</td>
+                <td>Sep 19,2022</td>
+            </tr>
+        </table>
+    </div>
+    <div id="application">
+        <h2> Submit Your Application</h2>
+        <form id="application-form" action="https://formbold.com/s/oJnEB" method="POST" enctype="multipart/form-data">
+            <div class="formgrp">
+                 <label for="name">Name</label><br>
+                <input type="text" id="name" name="Full Name" required placeholder="name">
+            </div>
+            <div class="formgrp">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required placeholder="emailid">
+            </div>
+            <div class="formgrp">
+                <label for="phone-number"> Phone Number</label><br>
+                <input type="number" id="phone-number" name="phone-number" required placeholder="+911234567890">
+            </div>
+            <div class="formgrp">
+                <label for="dob"> Date Of Birth</label><br>
+                <input type="date" id="dob" name="dob" required placeholder="01/01/2022">
+            </div>
+            <div class="formgrp">
+                <label for="position">Position Applied For</label><br>
+                <select id="position" name="Position Applied" required >
+                    <option>Select the position</option>
+                    <option value="FrontEnd Developer">FrontEnd Developer</option>
+                    <option value="backend de">Full Stack Developer</option>
+                    <option value="datascience">Data Science</option>
+                    <option value="ML engineer">ML engineerr</option>
+
+                </select>
+            <div class="formgrp">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id=resume name="resume" accept=".pdf,.png">
+            </div>
+            <div class="formgrp">
+                <label for="coverletter">Cover Letter</label><br>
+                <textarea id="coverletter" name="coverletter" rows="10" required placeholder="tell me why i should employ"></textarea>
+            </div>
+            </div>
+            <div class="formgrp">
+                <label>
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                    I Agree To The Terms And The Conditions
+                </label>
+            </div>
+            <div class="formgrp">
+                <input type="submit" value="Submit application">
+            </div>
+        </form>
+
+    </div>
+
+<!-- /* the br tag is used to produce an newline like used in the python */--> 
+
+<!--the name is used because if we want to enter the value given by the
+user to be in the given value mentioned in the name="" and the use of the for attribute is that we have to mention the same value mentioned in the 
+for in the id of the input tag also so that the label tag uses the FOR for the changes applied in the input tag
+and the value tag is used because we can accept whatever the user is giving but we want to save it in a different way 
+in the serve acc to our comfortabilty in the server so for that we are usign the VALUE fucntion-->    
+<div id="footer">
+        <ul id="footer-links">
+            <li>
+                <a href="https://jovian.com/learn" target="_blank">
+                    Courses
+                </a>
+            </li>
+            <li>
+                <a href="https://jovian.com/learn" target="_blank">
+                    Programs
+                </a>
+            </li>
+            <li>
+                <a href="https://youtube.com/@jovianhq" target="_blank">
+                    YouTube
+                </a>
+            </li>
+        </ul>
+        <span class="copyright">© 2023, Jovian </span>
+    </div>
+
+</body>
+
+</html>
