@@ -1,0 +1,231 @@
+@media screen and (max-width:425px){
+    /*for the mobiles*/
+    #logo{
+        display: block;
+        height:50px;
+        margin:0px
+    }
+    #logo-with-text{
+        display: none;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 2rem;
+        font-family: "Merriweather",sans-serif;
+        margin: 0px;
+        font-weight: 150;
+
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        
+    }
+    #description{
+        width:100%;
+        text-align: center;
+    }
+
+    #team-image{
+        width:10rem;
+        margin:auto;
+        object-fit:cover
+    }
+
+    p{
+        font-family:"MerriWeather";
+
+    }
+    #offers{
+        margin-top:50px;
+        text-align:center
+    }
+    ol li{
+        list-style-type: none;
+    }
+    h2{
+        text-align: center;
+        font-family: "Merriweather",sans-serif;
+        font-weight: 150;
+    }
+    table{
+        border-collapse: collapse;
+        
+    }
+    #jobs-table{
+        border-radius:5px;
+    }
+
+    }
+    .jobs-header-row th{
+        border:1px solid black;
+        background-color:#ecfccb ;
+
+    }
+    .jobs-data-row td{
+        border:1px solid black
+    }
+
+    #jobs-table tr:nth-child(odd){
+        background-color:#cffafe;
+    }
+
+    label{
+        font-family: "Merriweather",sans-serif;
+    }
+
+    input{
+        height: 20px;
+        border-radius: 10px;
+    }
+    .formgrp{
+        margin:20px auto;
+    }
+
+    button input #submit{
+        border:0px
+    }
+    ul li{
+        list-style-type:none;
+    }
+
+    #footer{
+        text-align: center;
+    }
+
+    a{
+        text-decoration: none;
+        margin:5px auto
+    }
+
+
+
+@media screen and (min-width:768px){
+
+    /*for the tablets*/
+
+    #logo{
+        display: none;
+    }
+    #logo-with-text{
+        display: block;
+    }
+
+    h1{
+        font-family: "Merriweather",sans-serif;
+        text-align: center;
+    }
+    p{
+        font-family: "Merriweather",sans-serif;
+    }
+    #about{
+        display: flex;
+        max-width:500px
+    }
+    #description{
+        width: 50%;
+        
+    }
+    #team-image{
+        width:100%;
+        height: 250px;
+    }
+    #offers{
+        text-align: center;
+    }
+    ol li{
+        list-style-type:none;
+    }
+    h2{
+        text-align: center;
+        font-family: "Merriweather",sans-serif;
+    }
+    table{
+        border-collapse: collapse;
+        width:100%
+    }
+    #footer-links{
+        text-align: center;
+        
+    }
+
+    html{
+        margin-left: 50px;
+    }
+    #footer-links li{
+        display:inline;
+
+        
+    }
+    #footer-links ul{
+        list-style-type: none;;
+    }
+
+    #footer-links li a{
+        margin:auto 50px;
+    }
+}
+
+@media screen and (min-width:1440px){
+
+    /*for the laptops*/
+
+    #about{
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    #description{
+        width:50%;
+    }
+    #team-image{
+        width: 50%;
+    }
+    #logo{
+        display: none;
+    }
+    #logo-with-text{
+        display: block;
+    }
+    th{
+        font-size: 3rem;
+    }
+    td{
+        font-size: 2.8rem;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size:3rem
+    }
+    p{
+        font-size:2rem
+    }
+    a{
+        font-size: 1.8rem;
+    }
+    label{
+        font-size:2rem;
+        margin-top:100px;
+    }
+    input{
+        font-size: 2rem;
+        height: 40px;
+    }
+    select{
+        font-size:2rem;
+        height:40px;
+        margin-top:10px;
+        background-color: #e2e8f0;
+    }
+    #checkbox{
+        width:100px;
+        margin:0px
+   
+    }
+    
+
+}
